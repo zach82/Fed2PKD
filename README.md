@@ -20,9 +20,6 @@ The baseline experiment trains the model in the conventional way.
 ```
 python federated_edit_main.py --mode model_heter --dataset mnist --num_classes 10 --num_users 20 --ways 7 --shots 500 --optimizer sgd --local_bs 32 --stdev 2 --rounds 300 --train_shots_max 510 --ldc 0.9 --ld 0.9 --tau 0.07 --k 20
 ```
-
-
-
 You can change the default values of other parameters to simulate different conditions. Refer to the options section.
 
 ## Options
@@ -49,3 +46,14 @@ The default values for various paramters parsed to the experiment are given in `
 * ```--tau:```      Value of tau. Default is 0.07.
 * ```--k:```      Number of S_t. Default is 50.
 * ```--rounds:```   Value of total training epochs. Default is 300.
+
+## Citation
+If you find this project helpful, please consider to cite the following paper:
+```
+@inproceedings{xie2024fed2pkd,
+  title={Fed2PKD: Bridging Model Diversity in Federated Learning via Two-Pronged Knowledge Distillation},
+  author={Xie, Zaipeng and Xu, Han and Gao, Xing and Jiang, Junchen and Han, Ruiqian},
+  booktitle={IEEE International Conference on Cloud Computing},
+  year={2024}
+}
+```
