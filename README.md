@@ -57,3 +57,5 @@ If you find this project helpful, please consider to cite the following paper:
   year={2024}
 }
 ```
+## Acknowledgements
+We built our project based on the foundational work found in [FedProto](https://github.com/yuetan031/FedProto). Our version includes modifications and enhancements tailored to our specific needs. We extend our gratitude to the original creators and maintainers of FedProto for their contribution. For anyone interested in the source, please explore the original [FedProto](https://github.com/yuetan031/FedProto).
