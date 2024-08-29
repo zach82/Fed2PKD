@@ -51,10 +51,14 @@ The default values for various paramters parsed to the experiment are given in `
 If you find this project helpful, please consider to cite the following paper:
 ```
 @inproceedings{xie2024fed2pkd,
-  title={Fed2PKD: Bridging Model Diversity in Federated Learning via Two-Pronged Knowledge Distillation},
   author={Xie, Zaipeng and Xu, Han and Gao, Xing and Jiang, Junchen and Han, Ruiqian},
-  booktitle={IEEE International Conference on Cloud Computing},
-  year={2024}
+  booktitle={2024 IEEE 17th International Conference on Cloud Computing (CLOUD)}, 
+  title={Fed2PKD: Bridging Model Diversity in Federated Learning via Two-Pronged Knowledge Distillation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-11},  
+  doi={10.1109/CLOUD62652.2024.00011}
 }
 ```
 ## Acknowledgements
